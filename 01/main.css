@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+/* main */
+.section_work,
+.section_partner,
+.section_main{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    min-height: 700px;
+    background: linear-gradient(0.9turn, #ff914d, #ff3131);
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+.navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    color: white;
+    padding: 10px;
+}
+.navbar-links a{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar-icon{
+    height: 50px;
+}
+.main_baner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    padding: 45px;
+}
+.baner-img{
+    height: 250px;
+}
+.baner-text{
+    color: white;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.main_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    gap: 25px;
+}
+.main_btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 5px 15px 5px 10px;
+}
+.main_btn ul{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.main_btn p{
+    font-size: 18;
+    font-weight: 400;
+    color: rgba(205, 205, 205, 0.92);
+}
+.main_btn div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.main_btn img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.btn-apk div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.btn-apk ul{
+    font-size: 20px;
+}
+/* work */
+.section_work{
+    background: #082129;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.work-video{
+    width: 95%;
+    height: 85%;
+    background: green;
+    border-radius: 17px;
+}
+/* partnor */
+.section_partner{
+    display: flex;
+    background: #080e29;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.part-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 120px;
+    background: #0f1a4bc5;
+    border-radius: 7px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.part-items img{
+    height: 80%;
+}
